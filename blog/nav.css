@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+ul li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 8px;
+    
+}
+ul li:hover{
+    background-color: tomato;
+    border-radius: 10px;
+}
+ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+   color: white;
+
+}
+ul a:hover{
+    color: white;
+}
